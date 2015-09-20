@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'app\\' => array($baseDir . '/app'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
 );
